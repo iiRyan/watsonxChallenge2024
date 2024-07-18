@@ -22,6 +22,6 @@ seed_examples:
        manage, and enforce policies and procedures to ensure compliance and mitigate risks.
 document:
   repo: https://github.com/iiRyan/watsonxChallenge2024
-  commit: d39154a09854afa582dcaf32ec7a0af341b6f504
+  commit: 1e60e5c8a862a99bd17eee1fe1ceeedc3c33dcc8
   patterns:
     - openpages.md
