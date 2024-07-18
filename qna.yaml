@@ -1,0 +1,27 @@
+version: 2
+task_description: "Teach the model about IBM OpenPages"
+created_by: rayan
+domain: IBM_products
+seed_examples:
+  - question: What are the main components of IBM OpenPages On-premises?
+    answer: |
+      Installation Server, Database Server, Application Servers, Reporting Servers, Search Server (optional).
+  - question: How does IBM OpenPages utilize IBM Cognos for managing reports?
+    answer: |
+      IBM OpenPages uses IBM Cognos Analytics to create, customize, and manage
+       reports and dashboards for governance, risk, and compliance insights.
+  - question: What are the deployment types for IBM OpenPages?
+    answer: |
+      OpenPages As a Service, Cloud Pak for Data, On Premises, IBM OpenPages on cloud (hosted SaaS).
+  - question: What databases are supported by IBM OpenPages for on-premise deployment?
+    answer: |
+      IBM DB2 and Oracle.
+  - question: What is the purpose of the IBM OpenPages Policy Management module?
+    answer: |
+      The Policy Management module in IBM OpenPages helps organizations create,
+       manage, and enforce policies and procedures to ensure compliance and mitigate risks.
+document:
+  repo: https://github.com/iiRyan/watsonxChallenge2024
+  commit: d39154a09854afa582dcaf32ec7a0af341b6f504
+  patterns:
+    - openpages.md
