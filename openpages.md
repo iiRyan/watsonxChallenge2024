@@ -1,5 +1,3 @@
-# IBM OpenPages Knowledge
-
 ## Main Components of IBM OpenPages On-Premises
 
 IBM OpenPages consists of the following components:
